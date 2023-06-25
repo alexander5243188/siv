@@ -17,7 +17,7 @@ class BrandSeeder extends Seeder
         //
         DB::table('brands')->insert([
         	'name' => 'Travex',
-            'user_id' => 1            
+            'user_id' => '1'            
         ]);
         
         //DB::table('brands')->insert([

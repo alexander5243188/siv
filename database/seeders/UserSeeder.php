@@ -16,7 +16,7 @@ class UserSeeder extends Seeder
     {
         User::create([
             'name' => 'Alexander',
-            'profile' => 'Admin',  
+            'profile' => 'ADMIN',  
             'phone' => '70399918',       
             //'status' => 'ACTIVO',
             'status_id' => 1, //---------------------------------------> LUEGO LO CAMBIAS AL AÑADIR EL ESTADO
@@ -27,7 +27,7 @@ class UserSeeder extends Seeder
         User::create([
             'name' => 'Alejandra',
             //'profile' => 'Employee',
-            'profile' => 'Vendedor',
+            'profile' => 'VENDEDOR',
             'phone' => '77436343',
             //'status' => 'ACTIVO',
             'status_id' => 1, //--------------------------> LUEGO LO CAMBIAS AL AÑADIR  EL ESTADO
@@ -38,7 +38,7 @@ class UserSeeder extends Seeder
         User::create([
             'name' => 'Graciela',
             //'profile' => 'Employee',
-            'profile' => 'Vendedor',
+            'profile' => 'VENDEDOR',
             'phone' => '77436343',
             //'status' => 'ACTIVO',
             'status_id' => 1, //--------------------------> LUEGO LO CAMBIAS AL AÑADIR  EL ESTADO
@@ -49,7 +49,7 @@ class UserSeeder extends Seeder
         User::create([
             'name' => 'Nirvana',
             //'profile' => 'Employee',
-            'profile' => 'Almacen',
+            'profile' => 'ALMACEN',
             'phone' => '77467343',
             //'status' => 'ACTIVO',
             'status_id' => 1, //--------------------------> LUEGO LO CAMBIAS AL AÑADIR  EL ESTADO
